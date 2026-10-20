@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" font-family="sans-serif">
+  <rect x="1" y="1" width="358" height="638" rx="24" fill="#fff" stroke="#333" stroke-width="2"/>
+
+  <!-- ヘッダ -->
+  <text x="180" y="62" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">ユーザ選択</text>
+
+  <!-- プルダウン（開いたところ） -->
+  <rect x="40" y="230" width="280" height="48" rx="10" fill="#fff" stroke="#666"/>
+  <circle cx="66" cy="254" r="14" fill="#ddd"/>
+  <text x="90" y="259" font-size="15" fill="#333">みちゃ</text>
+  <text x="300" y="259" font-size="12" fill="#666" text-anchor="middle">▼</text>
+
+  <rect x="40" y="282" width="280" height="96" rx="10" fill="#fff" stroke="#999"/>
+  <rect x="41" y="283" width="278" height="47" rx="9" fill="#f0f0f0"/>
+  <circle cx="66" cy="306" r="14" fill="#ddd"/>
+  <text x="90" y="311" font-size="15" fill="#333">みちゃ</text>
+  <circle cx="66" cy="354" r="14" fill="#cde"/>
+  <text x="90" y="359" font-size="15" fill="#333">よちゃ</text>
+
+  <!-- ユーザ追加リンク -->
+  <text x="180" y="460" font-size="15" fill="#2a6ad8" text-anchor="middle" text-decoration="underline">ユーザ追加</text>
+</svg>

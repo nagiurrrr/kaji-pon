@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" font-family="sans-serif">
+  <rect x="1" y="1" width="358" height="638" rx="24" fill="#fff" stroke="#333" stroke-width="2"/>
+
+  <!-- 後ろの S04 ユーザ登録画面を暗くする -->
+  <rect x="2" y="2" width="356" height="636" rx="23" fill="#000" opacity="0.4"/>
+
+  <!-- モーダル：12 種類のアイコンから選ぶ -->
+  <rect x="40" y="180" width="280" height="260" rx="16" fill="#fff" stroke="#999"/>
+  <text x="180" y="216" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">アイコンを選ぶ</text>
+  <g fill="#ddd">
+    <circle cx="75" cy="260" r="22"/>
+    <circle cx="145" cy="260" r="22"/>
+    <circle cx="215" cy="260" r="22"/>
+    <circle cx="285" cy="260" r="22"/>
+    <circle cx="75" cy="330" r="22"/>
+    <circle cx="145" cy="330" r="22"/>
+    <circle cx="215" cy="330" r="22"/>
+    <circle cx="285" cy="330" r="22"/>
+    <circle cx="75" cy="400" r="22"/>
+    <circle cx="145" cy="400" r="22"/>
+    <circle cx="215" cy="400" r="22"/>
+    <circle cx="285" cy="400" r="22"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" font-family="sans-serif">
+  <rect x="1" y="1" width="358" height="638" rx="24" fill="#fff" stroke="#333" stroke-width="2"/>
+
+  <!-- ヘッダ -->
+  <text x="180" y="62" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">ユーザ登録</text>
+
+  <!-- ユーザ名の入力欄と、左端のアイコンの枠 -->
+  <rect x="30" y="250" width="300" height="60" rx="10" fill="#fff" stroke="#666"/>
+  <rect x="42" y="262" width="36" height="36" rx="8" fill="#fafafa" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="60" y="285" font-size="16" fill="#999" text-anchor="middle">+</text>
+  <text x="92" y="286" font-size="16" fill="#aaa">ユーザ名（12 文字まで）</text>
+
+  <!-- 登録ボタン -->
+  <rect x="110" y="360" width="140" height="48" rx="24" fill="#333"/>
+  <text x="180" y="390" font-size="16" fill="#fff" text-anchor="middle">登録</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" font-family="sans-serif">
+  <rect x="1" y="1" width="358" height="638" rx="24" fill="#fff" stroke="#333" stroke-width="2"/>
+
+  <!-- 後ろの S02 記録画面を暗くする -->
+  <rect x="2" y="2" width="356" height="636" rx="23" fill="#000" opacity="0.4"/>
+
+  <!-- モーダル -->
+  <rect x="30" y="220" width="300" height="180" rx="16" fill="#fff" stroke="#999"/>
+  <text x="50" y="256" font-size="18" font-weight="bold" fill="#333">10/21</text>
+  <line x1="50" y1="272" x2="310" y2="272" stroke="#eee"/>
+  <g font-size="14" fill="#333">
+    <text x="50" y="302">08:12</text>
+    <text x="110" y="302">みちゃ</text>
+    <text x="180" y="302">皿洗い</text>
+    <text x="50" y="334">12:30</text>
+    <text x="110" y="334">よちゃ</text>
+    <text x="180" y="334">洗濯</text>
+    <text x="50" y="366">21:40</text>
+    <text x="110" y="366">よちゃ</text>
+    <text x="180" y="366">風呂掃除</text>
+  </g>
+</svg>
