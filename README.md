@@ -10,7 +10,7 @@
 | [業務要件](docs/01_business-requirements.md) | 何のために、誰が、どう使うか |
 | [システム要件](docs/02_system-requirements.md) | どう作り、どこで動かすか |
 | [ワイヤーフレーム](docs/03_wireframes.md) | 画面の移り方と、各画面の配置と決まりごと |
-| Penpot | 各画面の見た目。Claude からは MCP（`.mcp.json`）で読み書きする |
+| [Penpot](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2) | 各画面の見た目。Claude からは MCP（`.mcp.json`）で読み書きする |
 
 ## ドキュメントのルール
 

@@ -1,6 +1,6 @@
 # ワイヤーフレーム
 
-画面の見た目は Penpot で作る。ここには画面の ID、移り方、配置のラフ、決まりごとを書く。見た目は Penpot を、決まりごとはこのファイルを正とする。
+画面の見た目は [Penpot](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2) で作る。ここには画面の ID、移り方、配置のラフ、決まりごとを書く。見た目は Penpot を、決まりごとはこのファイルを正とする。
 
 ## 画面一覧
 
@@ -42,6 +42,8 @@ flowchart LR
 
 <img src="screens/S01-home.svg" width="300" alt="S01 ホームの見取り図">
 
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=e12717a4-f7ca-806d-8008-d2c095f0a3a3)
+
 - 右上：今のユーザのアイコンと名前のボタン。押すと S03 ユーザ選択へ
 - 中央：3×3 の 9 マス。押したマスには「よくできました」のスタンプと、押した人の名前が出る
 - 下：S01 ホームと S02 記録を切り替えるタブ
@@ -52,6 +54,8 @@ flowchart LR
 <summary>S02 記録</summary>
 
 <img src="screens/S02-record.svg" width="300" alt="S02 記録の見取り図">
+
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=99478ffe-5362-8002-8008-d2c3fb9e733c)
 
 - これまでの記録をカレンダーの形で見せる。下のタブでの表示名は「カレンダー」
 - 日付のマスは狭いので、その日に誰が何回スタンプを押したかを、名前と数だけで出す
@@ -64,6 +68,8 @@ flowchart LR
 
 <img src="screens/S03-user-select.svg" width="300" alt="S03 ユーザ選択の見取り図">
 
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=99478ffe-5362-8002-8008-d2c4013812b1)
+
 - 中央：プルダウン。開くとアイコンと名前のリストが出る（図は開いたところ）
   - 一軒あたりの人数は多くないので、プルダウンで足りる
 - 「ユーザ追加」リンクを押すと S04 ユーザ登録へ
@@ -74,6 +80,8 @@ flowchart LR
 <summary>S04 ユーザ登録</summary>
 
 <img src="screens/S04-user-register.svg" width="300" alt="S04 ユーザ登録の見取り図">
+
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=99478ffe-5362-8002-8008-d2c4028d5b4b)
 
 - 少し大きめのテキストフィールドにユーザ名を入れる。ユーザ名は最大 12 文字
 - テキストフィールドの左端にアイコンの枠があり、押すと M01 アイコン選択が開く
@@ -86,6 +94,8 @@ flowchart LR
 
 <img src="screens/M01-icon-select.svg" width="300" alt="M01 アイコン選択の見取り図">
 
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=99478ffe-5362-8002-8008-d2c4038c0cd8)
+
 - 最初から用意した 12 種類ほどのアイコンから選ぶ
   - アイコンの絵（SVG）はフロントアプリが持ち、データにはどのアイコンかを示す ID だけを残す
 
@@ -95,6 +105,8 @@ flowchart LR
 <summary>M02 日付の記録</summary>
 
 <img src="screens/M02-day-record.svg" width="300" alt="M02 日付の記録の見取り図">
+
+[Penpot で開く](https://design.penpot.app/#/workspace?team-id=8af72ccb-2daf-802c-8008-d2bb5e1d0c9b&file-id=86d07029-2be7-815f-8008-d2bfb7c372d2&page-id=86d07029-2be7-815f-8008-d2bfb7c372d3&board-id=99478ffe-5362-8002-8008-d2c4054610e5)
 
 - その日に誰が何時に何の家事をやったかを、時刻の順に並べる
 
