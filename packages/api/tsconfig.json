@@ -1,5 +1,5 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": { "lib": ["ES2022"], "types": ["@cloudflare/workers-types", "@cloudflare/vitest-plugin"] },
-  "include": ["env.d.ts", "src", "test", "vitest.config.ts"]
+  "include": ["env.d.ts", "src", "vitest.config.ts"]
 }

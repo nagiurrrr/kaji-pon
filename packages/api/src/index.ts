@@ -1,19 +1,12 @@
-import { DurableObject } from 'cloudflare:workers'
-import type { HealthResponse } from '@kaji-pon/shared'
+import type { Env } from './common/house'
+import { handleHealth } from './features/health'
 
-export class House extends DurableObject {
-  health(): HealthResponse {
-    return { ok: true }
-  }
-}
+export { House } from './common/house'
 
 export default {
   async fetch(request, env) {
     const { pathname } = new URL(request.url)
-    if (pathname === '/api/health') {
-      const house = env.HOUSE.get(env.HOUSE.idFromName('health'))
-      return Response.json(await house.health())
-    }
+    if (pathname === '/api/health') return handleHealth(env)
     return new Response('Not Found', { status: 404 })
   },
-} satisfies ExportedHandler<{ HOUSE: DurableObjectNamespace<House> }>
+} satisfies ExportedHandler<Env>
