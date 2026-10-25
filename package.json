@@ -1,0 +1,16 @@
+{
+  "name": "kaji-pon",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build -w packages/web",
+    "test": "npm run build && npm test -w packages/api",
+    "test:e2e": "playwright test",
+    "deploy": "npm run build && npm run deploy -w packages/api"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "typescript": "^7.0.2"
+  }
+}

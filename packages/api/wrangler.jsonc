@@ -1,0 +1,12 @@
+{
+  "name": "kaji-pon",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-19",
+  "assets": {
+    "directory": "../web/dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "durable_objects": { "bindings": [{ "name": "HOUSE", "class_name": "House" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["House"] }]
+}
