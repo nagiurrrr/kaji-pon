@@ -11,6 +11,7 @@ tools: Read, Grep, Glob, Bash
 
 - 要件どおりか。根拠は `docs/` と issue だけにする
 - テストが要件を確かめているか。抜けている場面は無いか
+- フォルダの分け方と import が、`docs/02_system-requirements.md` の「パッケージの中の分け方」に沿っているか
 - Cloudflare の設定（wrangler の設定、Durable Object の定義とマイグレーション）が正しいか
 - 無料プランの上限（`docs/02_system-requirements.md`）を超えるような作りになっていないか
 - 秘密の値（API キーやトークン）がコードや設定に入っていないか
