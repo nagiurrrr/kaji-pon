@@ -53,15 +53,21 @@ flowchart LR
 
 ```text
 web/src/
+  main.tsx         ← 入口。機能の処理は持たない
   features/
-    <機能名>/      ← その機能の画面・部品・処理をまとめて置く
+    <機能名>/      ← その機能の画面・部品・処理・テストをまとめて置く
       index.ts     ← ほかから使ってよいものだけを出す
+      *.test.ts    ← その機能のテスト
   common/          ← 二つ以上の機能で使うもの
 ```
 
+- 入口（web の `main.tsx`、api の `index.ts`）は `src/` の直下に一つだけ置く。`features/*/index.ts` と `common/` だけを import し、振り分けだけをする
 - 機能のフォルダの中身は、その機能の `index.ts` を通してだけ使う。中のファイルを直接 import しない
 - 機能から別の機能を import しない。二つ以上の機能で使うものは `common/` に、フロントとバックエンドで使う型は `shared` に移す
 - `api` も同じ形で分ける
+  - Durable Object の `House` は全部の機能が使うので `common/house.ts` に置き、入口から export する（wrangler が入口から探すため）
+  - 疎通確認の `/api/health` は `features/health/` に置く
+- ソースコードのテストは、その機能のフォルダ（または `common/`）に並べて置く。画面のテストはリポジトリ直下の `e2e/` に置く
 
 これから決めること：
 
